@@ -42,6 +42,21 @@ ALGORITHM FOR THE PROGRAM:
     10. stop
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     FINAL DRAFT FOR THE PROGRAM:
     Sure! Here is a **clean, structured, and well-organized outline** for your accounting project, fully based on the instructions from the file you provided. I’ve kept it in a format suitable for a project report, documentation, or planning document. All content is drawn from your file.
 
