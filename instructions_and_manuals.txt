@@ -1,0 +1,42 @@
+This is a program that keeps track of all my accounts, savings, deposits, investments, etc.
+
+SALES TAX:
+    This is a tax that shall go to my savings account for every expenditure and transaction I make. 
+    I think this shall help me save money in the long run and I could use some change for the future. 
+    Let's set up basic rules:
+        1. 2% of whatever transaction I make, goes to Fampay account. 
+        2. If I don't have the money to spend for the tax, it adds up to a debt recovery account.
+
+OBJECTIVES OF THE PROGRAM:
+    1. Keep track of all my savings, balance, investments, etc. (Basically a portfolio manager).
+    2. Helps me save money in the long run, as I spend a lot and if I have to pay taxes, that gives me a sense of responsibility.
+
+ALGORITHM FOR THE PROGRAM:
+    I don't know if this idea already exists (I'm pretty sure it does and also, it has a lot of benefits and stuff), but JIC I decide to launch this service someday, it'll be fun, and hence, I'm uploading this on GitHub.
+    1. Start
+    2. Takes the input of the date, and day.
+    3. Asks me if it is a transaction, a saving, an investment, or an add to balance.
+    4. for every transaction, it asks me the reason, and the amount. Then, it finds its 2% and adds to the total cost. Then, it stores everything in a transactions.txt file in a spreadsheet like manner:
+        [Sr.No.    Date       Reason        Amount          Tax         Total Amount          Balance]
+    5. for every saving, it asks me if I want to create a new cause, or keep it in an already existing cause. 
+        This is a way in which the program shall run (dry run):
+        Create cause (c) or add to existing cause (e): 
+        // if c
+        name for the cause: 
+        amount to be added: 
+        
+        //if e
+        name of the cause: 
+        amount to be added:
+
+        All of this will be stored in a file called savings.txt
+        It'll create a new table for every cause that shall look the following way: 
+        [Cause Name]
+        [Sr.No.     Date    Amount     Balance]
+    6. for every investment, it asks me the name of the share. If the name of the share doesn't exist, create a new section, and then informs me that a new section, else it just stores the data under each share according to the name that has been created. Then, it asks me the no. of shares, 1D Returns, and total returns for each share. (I'll have to make sure that I update it manually, but once I start progressing, I'll make sure to automate this). This will store all the data in a file called investments.txt and it'll look the following way:
+        [Share Name]
+        [Sr.No.    Date    Number of shares    1D returns     total returns    Value of shares]
+    7. If I recieve money from someone, I want it to add to the balance.
+    8. Then, I want to display the balance at the last that includes the balance from the transactions section.
+    9. Do I want to repeat the cycle again?: Yes[Repeat everything from the start] || No[stop the program]
+    10. stop
